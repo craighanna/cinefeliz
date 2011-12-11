@@ -1,0 +1,48 @@
+// Place all the styles related to the Projects controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#project_list table {
+        border-collapse: collapse;
+}
+
+#project_list table tr td {
+        padding: 5px;
+        vertical-align: top;
+}
+
+#project_list .list_image {
+  width:        60px;
+  height:       70px;
+}
+
+#project_list .list_description {
+  width:        60%;
+}
+
+#project_list .list_description dl {
+        margin: 0;
+}
+
+#project_list .list_description dt {
+        color:        #244;
+        font-weight:  bold;
+        font-size:    larger;
+}
+
+#project_list .list_description dd {
+        margin: 0;
+}
+
+#project_list .list_actions {
+  font-size:    x-small;
+  text-align:   right;
+  padding-left: 1em;
+}
+
+#project_list .list_line_even {
+  background:   #e0f8f8;
+}
+
+#project_list .list_line_odd {
+  background:   #f8b0f8;
+}
